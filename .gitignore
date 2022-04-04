@@ -1,0 +1,114 @@
+# Expo
+.expo
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+node_modules/
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+#*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+#package-lock.json
+
+# CocoaPods
+/ios/Pods/
+#/ios/Podfile.lock
+
+# VS Code
+.vscode/settings.json
+
+# Custom
+android/build
+android/app/build
+android/app/src/main/res/drawable-*
+android/app/src/main/assets/index.android.bundle
+#android/app/src/main/res/raw  #sounds are here
+android/app/src/main/res/raw/*.json
+
+#amplify
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/mock-data
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation
+build/
+dist/
+node_modules/
+awsconfiguration.json
+amplifyconfiguration.json
+amplify-gradle-config.json
+amplifyxc.config
+.vscode/.react/index.map
+.vscode/.react/debuggerWorker.js
+.vscode/.react/index.bundle
+android-debug.bundle
+android-debug.bundle.map
+ios-debug.bundle
+ios-debug.bundle.map
+ios-release.bundle
+ios-release.bundle.map
+android-release.bundle
+android-release.bundle.map
+CodePush/
+js-builds/
+android/release_files/
+index.android.bundle
+index.android.bundle.map
+main.jsbundle.map
+src/assets/dummydata/
+
+_node_modules/
+android/release.keystore.properties
+.env
+__node_modules/
