@@ -112,3 +112,4 @@ _node_modules/
 android/release.keystore.properties
 .env
 __node_modules/
+android/gradlew
